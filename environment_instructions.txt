@@ -48,7 +48,7 @@ https://ai.google.dev/gemini-api/docs/models
 uv add pymupdf==1.25.3 # fitz — PDF text extraction
 
 # RAG Libraries
-uv add langchain-community==0.3.27 # FAISS vectorstore integration (match langchain version)
+uv add pymupdf==1.25.3 # FAISS vectorstore integration (match langchain version)
 uv add faiss-cpu==1.11.0  # FAISS vector similarity search
 uv add langchain-text-splitters==0.3.9 # RecursiveCharacterTextSplitter
 uv add langchain-experimental # ---> To test semantic chunking splitter
